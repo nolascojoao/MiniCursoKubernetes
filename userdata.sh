@@ -25,15 +25,3 @@ curl -LO "$KUBECTL_URL"
 chmod +x ./kind ./kubectl
 sudo mv ./kind /usr/local/bin/kind
 sudo mv ./kubectl /usr/local/bin/kubectl
-
-# Imprimir as versões instaladas
-echo "Kind version:"
-kind version
-
-echo "Kubectl version:"
-kubectl version --client
-
-echo "Docker version:"
-docker --version
-
-echo "Instalação concluída!"
